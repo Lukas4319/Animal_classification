@@ -1,5 +1,5 @@
 # Project Overview
----
+
 ## Animal Classification
 I conducted a project to classify a total of 10 types of animals—Butterfly, Cat, Chicken, Cow, Dog, Elephant, Horse, Sheep, Spider, and Squirrel—using ResNet models.
 
