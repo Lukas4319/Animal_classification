@@ -8,8 +8,10 @@ The goal of our project was to determine which of the three models—ResNet18, R
 The dataset used for training consisted of a total of 10,000 images, with 1,000 images per class. For validation and test data, 100 images per class were used, totaling 1,000 images each.
 
 ## Dataset Information
-This project uses a dataset from Kaggle, but the dataset is not included in this repository.
-You can access and download the dataset from the following link: [Animals-10](https://www.kaggle.com/datasets/viratkothari/animal10).
+
+This project uses a dataset from Kaggle, but the dataset is not in this repository.
+You can access and download the dataset from the following link : [Animals-10](https://www.kaggle.com/datasets/viratkothari/animal10).
+
 ---
 ## ResNet
 
@@ -84,3 +86,9 @@ ResNet introduces a new learning method:
 ## conclusion
 As a result, the ResNet34 model achieved the highest performance with an accuracy of 94.1%.
 ![Residual Learning](./Image/Result_Table.png)
+
+## References
+* Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. *Deep Residual Learning for Image Recognition*. CVPR, 2016. [Paper](https://arxiv.org/abs/1512.03385)
+* Model Code by hyukppen
+
+
