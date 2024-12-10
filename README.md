@@ -1,5 +1,18 @@
 # Project Overview
 ---
+## Animal Classification
+I conducted a project to classify a total of 10 types of animals—Butterfly, Cat, Chicken, Cow, Dog, Elephant, Horse, Sheep, Spider, and Squirrel—using ResNet models.
+
+The goal of our project was to determine which of the three models—ResNet18, ResNet34, and ResNet50—performed the best when all hyperparameters were set identically
+
+The dataset used for training consisted of a total of 10,000 images, with 1,000 images per class. For validation and test data, 100 images per class were used, totaling 1,000 images each.
+
+## Dataset Information
+This project uses a dataset from Kaggle, but the dataset is not included in this repository.
+You can access and download the dataset from the following link: [Animals-10](https://www.kaggle.com/datasets/viratkothari/animal10).
+---
+## ResNet
+
 ### Residual Neural Network (ResNet)
 
 ResNet is a deep learning model developed by Microsoft Research in 2015, and has demonstrated innovative performance in various computer vision tasks such as image classification.
@@ -66,3 +79,8 @@ ResNet introduces a new learning method:
   1. **Mitigates Gradient Vanishing Problems**: Helps propagate signals effectively during backpropagation.
   2. **Provides Additional Optimization Paths**: Facilitates convergence even in very deep networks.  
 - Skip connections are based on **Identity Mapping** and add **no additional parameters**, ensuring computational efficiency.
+---
+
+## conclusion
+As a result, the ResNet34 model achieved the highest performance with an accuracy of 94.1%.
+![Residual Learning](./Image/Result_Table.png)
