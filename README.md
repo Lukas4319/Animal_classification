@@ -38,10 +38,9 @@ ResNet's core idea is to introduce a **residual structure** to solve the problem
 
 The core of ResNet is the **Residual Block**:
 - **Residual Block** learns the transformation function \( F(x) \), and its output is calculated as:
-  
-\[
-Output = F(x) + x
-\]
+  \[
+  Output = F(x) + x
+  \]
 - Each block consists of 2-3 convolution layers, and if needed, a **1×1 convolution** is used to match input and output dimensions.
 - ResNet-50, 101, and 152 employ the **Bottleneck Structure** to improve efficiency:
 - Bottleneck blocks reduce computation and improve learning speed by first reducing dimensions using a \( 1×1 \) layer, applying a \( 3×3 \) layer, and then restoring dimensions with another \( 1×1 \) layer.
